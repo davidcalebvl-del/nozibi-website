@@ -107,7 +107,12 @@ export default function Home() {
             </p>
 
             <div className="hero-actions">
-              <Link href="#davora" className="primary-button">
+              <Link
+                href="https://davora.xyz"
+                className="primary-button"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Explore Davora
               </Link>
             </div>
@@ -201,7 +206,12 @@ export default function Home() {
             </div>
 
             <div className="pricing-cta">
-              <Link href="#davora" className="secondary-button">
+              <Link
+                href="https://davora.xyz"
+                className="secondary-button"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Start With Davora
               </Link>
             </div>
