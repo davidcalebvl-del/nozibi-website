@@ -28,7 +28,10 @@ export default function Home() {
         {/* Hero Section */}
         <section className="hero-section">
           <div className="hero-container">
-            <div className="tag-pill">NIGERIA-BASED AI INNOVATION</div>
+            <div className="tag-pill">
+              <span className="badge-dot" />
+              <span>NIGERIA-BASED AI INNOVATION</span>
+            </div>
 
             <h1 className="hero-title">NOZIBI</h1>
 
@@ -72,68 +75,37 @@ export default function Home() {
             <div className="features-grid">
               <article className="card feature-card">
                 <div className="card-top">
-                  <span className="card-number">01</span>
-                  <span className="card-cat">PERFORMANCE</span>
+                  <span className="card-cat-line">
+                    <span className="card-number">01</span> &nbsp;/&nbsp; <span className="card-cat">PERFORMANCE</span>
+                  </span>
                 </div>
-                <h3 className="card-title">Groq-Powered Speed</h3>
+                <h3 className="card-title">High Speed</h3>
                 <p className="card-desc">
-                  Ultra-fast response latency engineered for real-time natural conversations.
+                  Engineered for instant response latency and real-time execution.
                 </p>
               </article>
 
               <article className="card feature-card">
                 <div className="card-top">
-                  <span className="card-number">02</span>
-                  <span className="card-cat">EXPERIENCE</span>
+                  <span className="card-cat-line">
+                    <span className="card-number">02</span> &nbsp;/&nbsp; <span className="card-cat">EXPERIENCE</span>
+                  </span>
                 </div>
-                <h3 className="card-title">Vibe & Personality</h3>
+                <h3 className="card-title">Real Personality</h3>
                 <p className="card-desc">
-                  Human-like tone and fluid expressiveness built directly into every interaction.
+                  Adaptive context, warmth, and engagement built into every interaction.
                 </p>
               </article>
 
               <article className="card feature-card">
                 <div className="card-top">
-                  <span className="card-number">03</span>
-                  <span className="card-cat">ACCESSIBILITY</span>
+                  <span className="card-cat-line">
+                    <span className="card-number">03</span> &nbsp;/&nbsp; <span className="card-cat">DISTRIBUTION</span>
+                  </span>
                 </div>
-                <h3 className="card-title">Practical Access</h3>
+                <h3 className="card-title">Universal Access</h3>
                 <p className="card-desc">
-                  Fair, transparent tiering created to deliver advanced AI to everyone.
-                </p>
-              </article>
-            </div>
-          </div>
-        </section>
-
-        {/* Pillars Section */}
-        <section className="section pillars-section">
-          <div className="container">
-            <div className="section-label-block">
-              <span className="section-label">FOUNDATIONAL VALUES</span>
-            </div>
-            <div className="pillars-grid">
-              <article className="card pillar-card">
-                <span className="pillar-label">PILLAR I</span>
-                <h3 className="pillar-title">SPEED</h3>
-                <p className="pillar-desc">
-                  High-velocity inference architecture designed for instant response times.
-                </p>
-              </article>
-
-              <article className="card pillar-card">
-                <span className="pillar-label">PILLAR II</span>
-                <h3 className="pillar-title">PERSONALITY</h3>
-                <p className="pillar-desc">
-                  Engaging, memorable conversational AI shaped with authentic human energy.
-                </p>
-              </article>
-
-              <article className="card pillar-card">
-                <span className="pillar-label">PILLAR III</span>
-                <h3 className="pillar-title">ACCESS</h3>
-                <p className="pillar-desc">
-                  Democratizing advanced technology through scalable, efficient engineering.
+                  Accessible design optimized for global devices and network
                 </p>
               </article>
             </div>
@@ -150,22 +122,22 @@ export default function Home() {
 
             <div className="quote-card">
               <p className="quote-text">
-                &ldquo;We are David Caleb (CEO) and Joshua Caleb (CTO), two self-taught brothers from Nigeria building AI products with no external funding or big team.&rdquo;
+                &ldquo;We are <strong>David Caleb (CEO)</strong> and <strong>Joshua Caleb (CTO)</strong>, two self-taught brothers from Nigeria building AI products with no external funding or big team.&rdquo;
               </p>
             </div>
 
             <div className="founders-grid">
               <article className="card founder-card">
-                <div className="founder-header">
-                  <div className="founder-avatar">DC</div>
-                  <div>
-                    <h3 className="founder-name">David Caleb</h3>
-                    <span className="role-tag">CEO</span>
-                  </div>
+                <div className="founder-top-row">
+                  <span className="founder-initials">DC</span>
+                  <span className="founder-role-badge">CHIEF EXECUTIVE OFFICER</span>
                 </div>
+                <h3 className="founder-name">David Caleb</h3>
+                <p className="founder-subrole">CO-FOUNDER &amp; CEO</p>
                 <p className="founder-bio">
-                  Leads product direction, vision, and operational strategy at NOZIBI, focusing on user experience and accessible AI tools.
+                  Leading product vision, strategy, and experience at NOZIBI. Focused on building high-impact AI systems that combine speed with deep human warmth and accessibility.
                 </p>
+                <div className="founder-footer-line" />
                 <div className="founder-tags">
                   <span className="meta-tag">Self-Taught Creator</span>
                   <span className="meta-tag">Nigeria</span>
@@ -173,20 +145,51 @@ export default function Home() {
               </article>
 
               <article className="card founder-card">
-                <div className="founder-header">
-                  <div className="founder-avatar">JC</div>
-                  <div>
-                    <h3 className="founder-name">Joshua Caleb</h3>
-                    <span className="role-tag">CTO</span>
-                  </div>
+                <div className="founder-top-row">
+                  <span className="founder-initials">JC</span>
+                  <span className="founder-role-badge">CHIEF TECHNOLOGY OFFICER</span>
                 </div>
+                <h3 className="founder-name">Joshua Caleb</h3>
+                <p className="founder-subrole">CO-FOUNDER &amp; CTO</p>
                 <p className="founder-bio">
-                  Directs technical architecture and core infrastructure, crafting high-speed, lightweight systems powering NOZIBI&apos;s products.
+                  Architecting core engineering, AI integration, and systems performance at NOZIBI. Passionate about efficient algorithms, clean code, and zero-compromise speed.
                 </p>
+                <div className="founder-footer-line" />
                 <div className="founder-tags">
                   <span className="meta-tag">Self-Taught Engineer</span>
                   <span className="meta-tag">Nigeria</span>
                 </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        {/* Pillars Section */}
+        <section className="section pillars-section">
+          <div className="container">
+            <div className="pillars-grid">
+              <article className="card pillar-card">
+                <span className="pillar-label">PILLAR I</span>
+                <h3 className="pillar-title">SPEED</h3>
+                <p className="pillar-desc">
+                  Sub-second responsiveness and optimized AI execution pipelines.
+                </p>
+              </article>
+
+              <article className="card pillar-card">
+                <span className="pillar-label">PILLAR II</span>
+                <h3 className="pillar-title">PERSONALITY</h3>
+                <p className="pillar-desc">
+                  Distinctive, warm, and natural interactions that feel truly engaging.
+                </p>
+              </article>
+
+              <article className="card pillar-card">
+                <span className="pillar-label">PILLAR III</span>
+                <h3 className="pillar-title">ACCESS</h3>
+                <p className="pillar-desc">
+                  Democratizing intelligence from Nigeria for users across the globe.
+                </p>
               </article>
             </div>
           </div>
@@ -196,7 +199,14 @@ export default function Home() {
       {/* Minimal Footer */}
       <footer className="footer">
         <div className="container footer-container">
-          <span className="footer-left">NOZIBI / Built in Nigeria</span>
+          <div className="footer-left-group">
+            <span className="brand-logo footer-logo">
+              <span className="dot" />
+              <span className="brand-text">NOZIBI</span>
+            </span>
+            <span className="footer-sep">/</span>
+            <span className="footer-subtext">Built in Nigeria</span>
+          </div>
           <span className="footer-right">&copy; 2026 NOZIBI. All rights reserved.</span>
         </div>
       </footer>
@@ -237,9 +247,9 @@ export default function Home() {
         }
 
         .brand-logo {
-          display: flex;
+          display: inline-flex;
           align-items: center;
-          gap: 10px;
+          gap: 12px;
         }
 
         .dot {
@@ -248,13 +258,13 @@ export default function Home() {
           background-color: #ffffff;
           border-radius: 50%;
           display: inline-block;
-          box-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+          flex-shrink: 0;
         }
 
         .brand-text {
           font-weight: 800;
-          letter-spacing: 0.12em;
-          font-size: 0.95rem;
+          letter-spacing: -0.01em;
+          font-size: 1.05rem;
           color: #ffffff;
         }
 
@@ -279,7 +289,7 @@ export default function Home() {
 
         /* Hero */
         .hero-section {
-          padding: 100px 24px 80px;
+          padding: 90px 24px 70px;
           text-align: center;
           display: flex;
           justify-content: center;
@@ -295,15 +305,25 @@ export default function Home() {
         .tag-pill {
           display: inline-flex;
           align-items: center;
+          gap: 10px;
           padding: 6px 14px;
           border-radius: 999px;
           border: 1px solid rgba(255, 255, 255, 0.18);
           background: rgba(255, 255, 255, 0.04);
           font-size: 0.72rem;
           font-weight: 700;
-          letter-spacing: 0.1em;
-          color: rgba(255, 255, 255, 0.8);
+          letter-spacing: 0.08em;
+          color: rgba(255, 255, 255, 0.85);
           margin-bottom: 28px;
+        }
+
+        .badge-dot {
+          width: 6px;
+          height: 6px;
+          background-color: #ffffff;
+          border-radius: 50%;
+          display: inline-block;
+          flex-shrink: 0;
         }
 
         .hero-title {
@@ -373,15 +393,11 @@ export default function Home() {
           border-top: 1px solid rgba(255, 255, 255, 0.08);
         }
 
-        .section-label-block {
-          margin-bottom: 32px;
-        }
-
         .section-label {
           font-size: 0.75rem;
           font-weight: 700;
           letter-spacing: 0.15em;
-          color: rgba(255, 255, 255, 0.5);
+          color: rgba(255, 255, 255, 0.45);
           display: block;
           margin-bottom: 8px;
         }
@@ -396,8 +412,8 @@ export default function Home() {
 
         /* Cards Shared */
         .card {
-          background: rgba(255, 255, 255, 0.025);
-          border: 1px solid rgba(255, 255, 255, 0.1);
+          background: rgba(255, 255, 255, 0.02);
+          border: 1px solid rgba(255, 255, 255, 0.09);
           border-radius: 16px;
           padding: 28px;
         }
@@ -423,20 +439,20 @@ export default function Home() {
         }
 
         .flagship-tag {
-          font-size: 0.72rem;
-          font-weight: 800;
+          font-size: 0.7rem;
+          font-weight: 700;
           letter-spacing: 0.12em;
           padding: 6px 12px;
-          border-radius: 999px;
-          border: 1px solid rgba(255, 255, 255, 0.2);
-          background: rgba(255, 255, 255, 0.06);
-          color: #ffffff;
+          border-radius: 6px;
+          border: 1px solid rgba(255, 255, 255, 0.15);
+          background: rgba(255, 255, 255, 0.04);
+          color: rgba(255, 255, 255, 0.6);
         }
 
         .by-nozibi {
-          font-size: 1.1rem;
-          color: rgba(255, 255, 255, 0.5);
-          margin: 6px 0 24px;
+          font-size: 1rem;
+          color: rgba(255, 255, 255, 0.45);
+          margin: 8px 0 24px;
           font-weight: 500;
         }
 
@@ -451,7 +467,7 @@ export default function Home() {
           padding: 12px 26px;
           border-radius: 999px;
           background: rgba(255, 255, 255, 0.08);
-          border: 1px solid rgba(255, 255, 255, 0.2);
+          border: 1px solid rgba(255, 255, 255, 0.18);
           color: #ffffff;
           font-size: 0.85rem;
           font-weight: 700;
@@ -460,7 +476,7 @@ export default function Home() {
 
         .dark-pill-btn:hover {
           background: rgba(255, 255, 255, 0.16);
-          border-color: rgba(255, 255, 255, 0.4);
+          border-color: rgba(255, 255, 255, 0.35);
         }
 
         .features-grid {
@@ -470,28 +486,27 @@ export default function Home() {
         }
 
         .card-top {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
           margin-bottom: 20px;
         }
 
-        .card-number {
-          font-size: 0.85rem;
-          font-weight: 800;
+        .card-cat-line {
+          font-size: 0.72rem;
+          font-weight: 700;
+          letter-spacing: 0.12em;
           color: rgba(255, 255, 255, 0.4);
-          letter-spacing: 0.08em;
+          font-family: monospace, monospace;
+        }
+
+        .card-number {
+          color: rgba(255, 255, 255, 0.4);
         }
 
         .card-cat {
-          font-size: 0.68rem;
-          font-weight: 700;
-          letter-spacing: 0.12em;
           color: rgba(255, 255, 255, 0.4);
         }
 
         .card-title {
-          font-size: 1.2rem;
+          font-size: 1.35rem;
           font-weight: 800;
           margin: 0 0 10px;
           color: #ffffff;
@@ -499,7 +514,7 @@ export default function Home() {
 
         .card-desc {
           font-size: 0.92rem;
-          color: rgba(255, 255, 255, 0.65);
+          color: rgba(255, 255, 255, 0.6);
           margin: 0;
           line-height: 1.5;
         }
@@ -513,24 +528,25 @@ export default function Home() {
 
         .pillar-label {
           font-size: 0.72rem;
-          font-weight: 800;
-          letter-spacing: 0.12em;
+          font-weight: 700;
+          letter-spacing: 0.14em;
           color: rgba(255, 255, 255, 0.4);
+          font-family: monospace, monospace;
           display: block;
-          margin-bottom: 12px;
+          margin-bottom: 14px;
         }
 
         .pillar-title {
           font-size: 1.4rem;
           font-weight: 900;
-          letter-spacing: 0.04em;
+          letter-spacing: 0.02em;
           margin: 0 0 12px;
           color: #ffffff;
         }
 
         .pillar-desc {
           font-size: 0.92rem;
-          color: rgba(255, 255, 255, 0.65);
+          color: rgba(255, 255, 255, 0.6);
           margin: 0;
           line-height: 1.5;
         }
@@ -541,8 +557,8 @@ export default function Home() {
         }
 
         .quote-card {
-          background: rgba(255, 255, 255, 0.03);
-          border: 1px solid rgba(255, 255, 255, 0.12);
+          background: rgba(255, 255, 255, 0.02);
+          border: 1px solid rgba(255, 255, 255, 0.09);
           border-radius: 20px;
           padding: 36px 40px;
           margin-bottom: 32px;
@@ -550,11 +566,15 @@ export default function Home() {
 
         .quote-text {
           font-size: clamp(1.1rem, 2.5vw, 1.4rem);
-          font-weight: 500;
+          font-weight: 400;
           line-height: 1.6;
-          color: rgba(255, 255, 255, 0.92);
+          color: rgba(255, 255, 255, 0.88);
           margin: 0;
-          font-style: italic;
+        }
+
+        .quote-text strong {
+          font-weight: 700;
+          color: #ffffff;
         }
 
         .founders-grid {
@@ -563,63 +583,73 @@ export default function Home() {
           gap: 24px;
         }
 
-        .founder-header {
+        .founder-top-row {
           display: flex;
           align-items: center;
-          gap: 16px;
-          margin-bottom: 16px;
+          justify-content: space-between;
+          margin-bottom: 24px;
         }
 
-        .founder-avatar {
-          width: 48px;
-          height: 48px;
-          border-radius: 50%;
-          background: rgba(255, 255, 255, 0.08);
-          border: 1px solid rgba(255, 255, 255, 0.2);
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          font-weight: 800;
-          font-size: 0.95rem;
+        .founder-initials {
+          font-size: 1.8rem;
+          font-weight: 900;
+          letter-spacing: -0.02em;
           color: #ffffff;
         }
 
+        .founder-role-badge {
+          font-size: 0.68rem;
+          font-weight: 700;
+          letter-spacing: 0.12em;
+          padding: 6px 12px;
+          border-radius: 6px;
+          border: 1px solid rgba(255, 255, 255, 0.14);
+          background: rgba(255, 255, 255, 0.04);
+          color: rgba(255, 255, 255, 0.55);
+          font-family: monospace, monospace;
+        }
+
         .founder-name {
-          font-size: 1.25rem;
+          font-size: 1.4rem;
           font-weight: 800;
           margin: 0 0 4px;
           color: #ffffff;
         }
 
-        .role-tag {
+        .founder-subrole {
           font-size: 0.72rem;
           font-weight: 700;
-          letter-spacing: 0.1em;
-          color: rgba(255, 255, 255, 0.5);
+          letter-spacing: 0.12em;
+          color: rgba(255, 255, 255, 0.45);
+          font-family: monospace, monospace;
+          margin: 0 0 16px;
         }
 
         .founder-bio {
           font-size: 0.92rem;
-          color: rgba(255, 255, 255, 0.7);
+          color: rgba(255, 255, 255, 0.65);
           line-height: 1.6;
-          margin: 0 0 20px;
+          margin: 0 0 24px;
           min-height: 4.8em;
+        }
+
+        .founder-footer-line {
+          height: 1px;
+          background: rgba(255, 255, 255, 0.08);
+          margin-bottom: 20px;
         }
 
         .founder-tags {
           display: flex;
-          gap: 8px;
-          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: center;
         }
 
         .meta-tag {
-          font-size: 0.72rem;
-          font-weight: 600;
-          padding: 4px 10px;
-          border-radius: 999px;
-          border: 1px solid rgba(255, 255, 255, 0.12);
-          background: rgba(255, 255, 255, 0.03);
-          color: rgba(255, 255, 255, 0.6);
+          font-size: 0.78rem;
+          font-weight: 500;
+          color: rgba(255, 255, 255, 0.5);
+          font-family: monospace, monospace;
         }
 
         /* Footer */
@@ -637,6 +667,28 @@ export default function Home() {
           color: rgba(255, 255, 255, 0.5);
           flex-wrap: wrap;
           gap: 16px;
+        }
+
+        .footer-left-group {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+        }
+
+        .footer-sep {
+          color: rgba(255, 255, 255, 0.3);
+        }
+
+        .footer-subtext {
+          font-family: monospace, monospace;
+          font-size: 0.82rem;
+          color: rgba(255, 255, 255, 0.45);
+        }
+
+        .footer-right {
+          font-family: monospace, monospace;
+          font-size: 0.8rem;
+          color: rgba(255, 255, 255, 0.4);
         }
 
         /* Responsive */
