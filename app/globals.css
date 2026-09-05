@@ -2,11 +2,13 @@
   color-scheme: dark;
   --background: #000000;
   --foreground: #ffffff;
-  --muted: rgba(255, 255, 255, 0.72);
+  --muted: rgba(255, 255, 255, 0.65);
+  --muted-dark: rgba(255, 255, 255, 0.45);
   --border: rgba(255, 255, 255, 0.12);
-  --border-strong: rgba(255, 255, 255, 0.28);
-  --panel: rgba(255, 255, 255, 0.03);
-  --panel-strong: rgba(255, 255, 255, 0.06);
+  --border-strong: rgba(255, 255, 255, 0.22);
+  --silver: #c0c0c0;
+  --panel-bg: rgba(255, 255, 255, 0.025);
+  --panel-border: rgba(255, 255, 255, 0.1);
 }
 
 * {
@@ -15,18 +17,18 @@
 
 html {
   scroll-behavior: smooth;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 body {
   margin: 0;
+  padding: 0;
   min-width: 320px;
-  background-color: var(--background);
-  background-image:
-    linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
-  background-position: center;
-  background-size: 44px 44px;
-  color: var(--foreground);
+  background-color: #000000;
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
@@ -36,15 +38,5 @@ a {
 
 button,
 a {
-  transition:
-    transform 0.2s ease,
-    border-color 0.2s ease,
-    background-color 0.2s ease,
-    color 0.2s ease,
-    opacity 0.2s ease;
-}
-
-img {
-  display: block;
-  max-width: 100%;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
