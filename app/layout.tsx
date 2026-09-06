@@ -8,8 +8,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "NOZIBI",
-  description: "Nigeria-based AI innovation building next-generation intelligent applications.",
+  title: "NOZIBI — Nigeria-Based AI Innovation",
+  description: "An AI company built for speed, personality, and access.",
 };
 
 export default function RootLayout({
@@ -18,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={inter.className}>
       <body className={inter.className}>{children}</body>
     </html>
   );
