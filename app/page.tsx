@@ -110,6 +110,37 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Pillars Section */}
+        <section className="section pillars-section">
+          <div className="container">
+            <div className="pillars-grid">
+              <article className="card pillar-card">
+                <span className="pillar-label">PILLAR I</span>
+                <h3 className="pillar-title">SPEED</h3>
+                <p className="pillar-desc">
+                  Sub-second responsiveness and optimized AI execution pipelines.
+                </p>
+              </article>
+
+              <article className="card pillar-card">
+                <span className="pillar-label">PILLAR II</span>
+                <h3 className="pillar-title">PERSONALITY</h3>
+                <p className="pillar-desc">
+                  Distinctive, warm, and natural interactions that feel truly engaging.
+                </p>
+              </article>
+
+              <article className="card pillar-card">
+                <span className="pillar-label">PILLAR III</span>
+                <h3 className="pillar-title">ACCESS</h3>
+                <p className="pillar-desc">
+                  Democratizing intelligence from Nigeria for users across the globe.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+
         {/* Pricing Section */}
         <section id="pricing" className="section pricing-section">
           <div className="container">
@@ -218,37 +249,6 @@ export default function Home() {
               >
                 See full pricing &rarr;
               </a>
-            </div>
-          </div>
-        </section>
-
-        {/* Pillars Section */}
-        <section className="section pillars-section">
-          <div className="container">
-            <div className="pillars-grid">
-              <article className="card pillar-card">
-                <span className="pillar-label">PILLAR I</span>
-                <h3 className="pillar-title">SPEED</h3>
-                <p className="pillar-desc">
-                  Sub-second responsiveness and optimized AI execution pipelines.
-                </p>
-              </article>
-
-              <article className="card pillar-card">
-                <span className="pillar-label">PILLAR II</span>
-                <h3 className="pillar-title">PERSONALITY</h3>
-                <p className="pillar-desc">
-                  Distinctive, warm, and natural interactions that feel truly engaging.
-                </p>
-              </article>
-
-              <article className="card pillar-card">
-                <span className="pillar-label">PILLAR III</span>
-                <h3 className="pillar-title">ACCESS</h3>
-                <p className="pillar-desc">
-                  Democratizing intelligence from Nigeria for users across the globe.
-                </p>
-              </article>
             </div>
           </div>
         </section>
