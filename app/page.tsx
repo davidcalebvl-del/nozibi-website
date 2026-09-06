@@ -151,92 +151,50 @@ export default function Home() {
 
             <div className="pricing-grid">
               <article className="card pricing-card">
-                <div>
-                  <div className="pricing-tier-top">
-                    <span className="tier-name">STARTER</span>
-                    <div className="tier-price-row">
-                      <span className="tier-price">$0</span>
-                      <span className="tier-period">/ free forever</span>
-                    </div>
-                    <p className="tier-desc">
-                      Ideal for individuals exploring conversational AI capabilities.
-                    </p>
-                  </div>
-                  <div className="tier-divider" />
-                  <ul className="tier-features-list">
-                    <li className="tier-feature-item">
-                      <span className="tier-feature-bullet" />
-                      <span>Standard response speed</span>
-                    </li>
-                    <li className="tier-feature-item">
-                      <span className="tier-feature-bullet" />
-                      <span>Adaptive personality engine</span>
-                    </li>
-                    <li className="tier-feature-item">
-                      <span className="tier-feature-bullet" />
-                      <span>Community access &amp; support</span>
-                    </li>
-                  </ul>
+                <span className="pricing-tier-name">STARTER</span>
+                <div className="pricing-amount-row">
+                  <span className="pricing-price">$0</span>
+                  <span className="pricing-period">/ free forever</span>
                 </div>
+                <p className="pricing-desc">
+                  Ideal for individuals exploring conversational AI capabilities.
+                </p>
+                <ul className="pricing-features">
+                  <li>Standard response speed</li>
+                  <li>Adaptive personality engine</li>
+                  <li>Community access & support</li>
+                </ul>
+              </article>
+
+              <article className="card pricing-card pricing-card-featured">
+                <span className="pricing-tier-name">PRO</span>
+                <div className="pricing-amount-row">
+                  <span className="pricing-price">$19</span>
+                  <span className="pricing-period">/ month</span>
+                </div>
+                <p className="pricing-desc">
+                  For power users and builders needing priority execution.
+                </p>
+                <ul className="pricing-features">
+                  <li>Ultra-fast priority inference</li>
+                  <li>Custom personality fine-tuning</li>
+                  <li>Expanded context window</li>
+                </ul>
               </article>
 
               <article className="card pricing-card">
-                <div>
-                  <div className="pricing-tier-top">
-                    <span className="tier-name">PRO</span>
-                    <div className="tier-price-row">
-                      <span className="tier-price">$19</span>
-                      <span className="tier-period">/ month</span>
-                    </div>
-                    <p className="tier-desc">
-                      For power users and builders needing priority execution.
-                    </p>
-                  </div>
-                  <div className="tier-divider" />
-                  <ul className="tier-features-list">
-                    <li className="tier-feature-item">
-                      <span className="tier-feature-bullet" />
-                      <span>Ultra-fast priority inference</span>
-                    </li>
-                    <li className="tier-feature-item">
-                      <span className="tier-feature-bullet" />
-                      <span>Custom personality fine-tuning</span>
-                    </li>
-                    <li className="tier-feature-item">
-                      <span className="tier-feature-bullet" />
-                      <span>Expanded context window</span>
-                    </li>
-                  </ul>
+                <span className="pricing-tier-name">ENTERPRISE</span>
+                <div className="pricing-amount-row">
+                  <span className="pricing-price">Custom</span>
                 </div>
-              </article>
-
-              <article className="card pricing-card">
-                <div>
-                  <div className="pricing-tier-top">
-                    <span className="tier-name">ENTERPRISE</span>
-                    <div className="tier-price-row">
-                      <span className="tier-price">Custom</span>
-                    </div>
-                    <p className="tier-desc">
-                      Tailored infrastructure &amp; dedicated intelligence pipelines.
-                    </p>
-                  </div>
-                  <div className="tier-divider" />
-                  <ul className="tier-features-list">
-                    <li className="tier-feature-item">
-                      <span className="tier-feature-bullet" />
-                      <span>Dedicated API endpoints &amp; SLA</span>
-                    </li>
-                    <li className="tier-feature-item">
-                      <span className="tier-feature-bullet" />
-                      <span>Bespoke AI system integration</span>
-                    </li>
-                    <li className="tier-feature-item">
-                      <span className="tier-feature-bullet" />
-                      <span>24/7 priority developer support</span>
-                    </li>
-                  </ul>
-                </div>
+                <p className="pricing-desc">
+                  Tailored infrastructure & dedicated intelligence pipelines.
+                </p>
+                <ul className="pricing-features">
+                  <li>Dedicated API endpoints & SLA</li>
+                  <li>Bespoke AI system integration</li>
+                  <li>24/7 priority developer support</li>
+                </ul>
               </article>
             </div>
 
