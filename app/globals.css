@@ -664,7 +664,17 @@ a {
 
   .footer-container {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    text-align: center;
+    font-size: 0.75rem;
+  }
+
+  .footer-subtext {
+    font-size: 0.7rem;
+  }
+
+  .footer-right {
+    font-size: 0.7rem;
   }
   }
   
