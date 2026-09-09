@@ -17,7 +17,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="pill-btn header-pill"
           >
-            DAVORA &rarr;
+            DAVORA
           </a>
         </div>
       </header>
@@ -280,4 +280,4 @@ export default function Home() {
       </footer>
     </div>
   );
-                  }
+}
