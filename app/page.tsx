@@ -7,7 +7,6 @@ export default function Home() {
       <header className="header">
         <div className="header-container">
           <Link href="/" className="brand-logo" aria-label="NOZIBI Home">
-            <span className="logo-dot" />
             <span className="brand-text">NOZIBI</span>
           </Link>
 
@@ -269,7 +268,6 @@ export default function Home() {
         <div className="container footer-container">
           <div className="footer-left-group">
             <span className="brand-logo footer-logo">
-              <span className="logo-dot" />
               <span className="brand-text">NOZIBI</span>
             </span>
             <span className="footer-sep">/</span>
