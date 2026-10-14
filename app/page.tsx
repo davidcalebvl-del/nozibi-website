@@ -26,7 +26,6 @@ export default function Home() {
         <section className="hero-section">
           <div className="hero-container">
             <div className="tag-pill">
-              <span className="hero-badge-dot" />
               <span>NIGERIA-BASED AI INNOVATION</span>
             </div>
 
