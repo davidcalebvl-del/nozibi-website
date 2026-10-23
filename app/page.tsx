@@ -9,7 +9,6 @@ export default function Home() {
           <Link href="/" className="brand-logo" aria-label="NOZIBI Home">
             <span className="brand-text">NOZIBI</span>
           </Link>
-
           <a
             href="https://davora.xyz"
             target="_blank"
@@ -28,17 +27,16 @@ export default function Home() {
             <div className="tag-pill">
               <span>NIGERIA-BASED AI INNOVATION</span>
             </div>
-
             <h1 className="hero-title">NOZIBI</h1>
-
             <p className="hero-mixed-line">
-              An AI company built for <strong><u>speed</u></strong>, <strong><u>personality</u></strong>, and <strong><u>access</u></strong>.
+              An AI company built for <strong><u>speed</u></strong>,{" "}
+              <strong><u>personality</u></strong>, and{" "}
+              <strong><u>access</u></strong>.
             </p>
-
             <p className="hero-subline">
-              Creating high-performance intelligent products designed with precision, fast inference, and accessible design.
+              We build fast, personality-driven AI products that are accessible
+              to everyone — starting with Davora, our AI chat app.
             </p>
-
             <div className="hero-cta-wrapper">
               <a href="#davora" className="white-pill-btn">
                 Meet Davora &rarr;
@@ -56,6 +54,11 @@ export default function Home() {
                 <span className="flagship-tag">FLAGSHIP PRODUCT</span>
               </div>
               <p className="by-nozibi">By NOZIBI</p>
+              <p className="davora-mission">
+                Davora is our flagship AI chat app — built for sub-second
+                replies, naturally warm conversation, and reliable access on any
+                device, anywhere.
+              </p>
               <div className="davora-cta-row">
                 <a
                   href="https://davora.xyz"
@@ -77,7 +80,8 @@ export default function Home() {
                 </div>
                 <h3 className="card-title">High Speed</h3>
                 <p className="card-desc">
-                  Engineered for instant response latency and real-time execution.
+                  Engineered for sub-second response latency and real-time
+                  execution — so the conversation never waits on the model.
                 </p>
               </article>
 
@@ -89,7 +93,9 @@ export default function Home() {
                 </div>
                 <h3 className="card-title">Real Personality</h3>
                 <p className="card-desc">
-                  Adaptive context, warmth, and engagement built into every interaction.
+                  Adaptive context, genuine warmth, and engaging tone built into
+                  every interaction — it talks like someone you would actually
+                  want to chat with.
                 </p>
               </article>
 
@@ -101,7 +107,9 @@ export default function Home() {
                 </div>
                 <h3 className="card-title">Universal Access</h3>
                 <p className="card-desc">
-                  Accessible design optimized for global devices and network
+                  Accessible design optimized for low-bandwidth networks and
+                  every kind of device — quality AI, not locked behind high-end
+                  hardware.
                 </p>
               </article>
             </div>
@@ -116,7 +124,8 @@ export default function Home() {
                 <span className="pillar-label">PILLAR I</span>
                 <h3 className="pillar-title">SPEED</h3>
                 <p className="pillar-desc">
-                  Sub-second responsiveness and optimized AI execution pipelines.
+                  Sub-second responsiveness and optimized AI execution
+                  pipelines. Speed is a feature, not an afterthought.
                 </p>
               </article>
 
@@ -124,7 +133,8 @@ export default function Home() {
                 <span className="pillar-label">PILLAR II</span>
                 <h3 className="pillar-title">PERSONALITY</h3>
                 <p className="pillar-desc">
-                  Distinctive, warm, and natural interactions that feel truly engaging.
+                  Distinctive, warm, and natural interactions that feel truly
+                  engaging — AI with character, not just correctness.
                 </p>
               </article>
 
@@ -132,7 +142,8 @@ export default function Home() {
                 <span className="pillar-label">PILLAR III</span>
                 <h3 className="pillar-title">ACCESS</h3>
                 <p className="pillar-desc">
-                  Democratizing intelligence from Nigeria for users across the globe.
+                  Democratizing intelligence from Nigeria for users across the
+                  globe — built for emerging markets first.
                 </p>
               </article>
             </div>
@@ -155,12 +166,13 @@ export default function Home() {
                   <span className="pricing-period">/ free forever</span>
                 </div>
                 <p className="pricing-desc">
-                  Ideal for individuals exploring conversational AI capabilities.
+                  Ideal for individuals exploring conversational AI
+                  capabilities.
                 </p>
                 <ul className="pricing-features">
                   <li>Standard response speed</li>
                   <li>Adaptive personality engine</li>
-                  <li>Community access & support</li>
+                  <li>Community access &amp; support</li>
                 </ul>
               </article>
 
@@ -186,10 +198,11 @@ export default function Home() {
                   <span className="pricing-price">Custom</span>
                 </div>
                 <p className="pricing-desc">
-                  Tailored infrastructure & dedicated intelligence pipelines.
+                  Tailored infrastructure &amp; dedicated intelligence
+                  pipelines.
                 </p>
                 <ul className="pricing-features">
-                  <li>Dedicated API endpoints & SLA</li>
+                  <li>Dedicated API endpoints &amp; SLA</li>
                   <li>Bespoke AI system integration</li>
                   <li>24/7 priority developer support</li>
                 </ul>
@@ -209,52 +222,68 @@ export default function Home() {
           </div>
         </section>
 
-        {/* About Us Section */}
+        {/* About / Leadership Section */}
         <section id="about" className="section about-section">
           <div className="container">
             <div className="about-header">
               <span className="section-label">WHO WE ARE</span>
-              <h2 className="huge-heading">ABOUT US</h2>
+              <h2 className="huge-heading">Leadership at Nozibi</h2>
             </div>
 
-            <div className="quote-card">
-              <p className="quote-text">
-                &ldquo;We are <strong>David Caleb (CEO)</strong> and <strong>Joshua Caleb (CTO)</strong>, two self-taught brothers from Nigeria building AI products with no external funding or big team.&rdquo;
-              </p>
-            </div>
+            <p className="our-story">
+              Nozibi was founded by two self-taught brothers, David and Joshua
+              Caleb, in Nigeria. With no outside funding and no large team, they
+              built the company from scratch around a simple belief: world-class
+              AI products can be built from anywhere, for everyone. Today they
+              lead product, design, and engineering for Davora and the next
+              generation of Nozibi AI tools.
+            </p>
 
             <div className="founders-grid">
               <article className="card founder-card">
                 <div className="founder-top-row">
-                  <span className="founder-initials">DC</span>
-                  <span className="founder-role-pill">CHIEF EXECUTIVE OFFICER</span>
+                  <span className="founder-avatar" aria-hidden="true">DC</span>
+                  <span className="founder-role-pill">
+                    CHIEF EXECUTIVE OFFICER
+                  </span>
                 </div>
                 <h3 className="founder-name">David Caleb</h3>
                 <p className="founder-subrole">CO-FOUNDER &amp; CEO</p>
                 <p className="founder-bio">
-                  Leading product vision, strategy, and experience at NOZIBI. Focused on building high-impact AI systems that combine speed with deep human warmth and accessibility.
+                  Self-taught graphic and web designer leading product vision,
+                  brand identity, and business strategy for Davora and future
+                  Nozibi AI tools. Previously built brand assets and client
+                  websites at FixHub Technology.
                 </p>
                 <div className="founder-footer-line" />
                 <div className="founder-tags">
                   <span className="meta-tag">Self-Taught Creator</span>
-                  <span className="meta-tag">Nigeria</span>
+                  <Link href="/bio/david" className="read-bio-link">
+                    Read full bio &rarr;
+                  </Link>
                 </div>
               </article>
 
               <article className="card founder-card">
                 <div className="founder-top-row">
-                  <span className="founder-initials">JC</span>
-                  <span className="founder-role-pill">CHIEF TECHNOLOGY OFFICER</span>
+                  <span className="founder-avatar" aria-hidden="true">JC</span>
+                  <span className="founder-role-pill">
+                    CHIEF TECHNOLOGY OFFICER
+                  </span>
                 </div>
                 <h3 className="founder-name">Joshua Caleb</h3>
                 <p className="founder-subrole">CO-FOUNDER &amp; CTO</p>
                 <p className="founder-bio">
-                  Architecting core engineering, AI integration, and systems performance at NOZIBI. Passionate about efficient algorithms, clean code, and zero-compromise speed.
+                  Self-taught engineer architecting core AI integration, systems
+                  performance, and infrastructure at Nozibi. Passionate about
+                  efficient algorithms, clean code, and zero-compromise speed.
                 </p>
                 <div className="founder-footer-line" />
                 <div className="founder-tags">
                   <span className="meta-tag">Self-Taught Engineer</span>
-                  <span className="meta-tag">Nigeria</span>
+                  <Link href="/bio/joshua" className="read-bio-link">
+                    Read full bio &rarr;
+                  </Link>
                 </div>
               </article>
             </div>
@@ -262,17 +291,85 @@ export default function Home() {
         </section>
       </main>
 
-      {/* Minimal Footer */}
+      {/* Footer */}
       <footer className="footer">
-        <div className="container footer-container">
-          <div className="footer-left-group">
-            <span className="brand-logo footer-logo">
-              <span className="brand-text">NOZIBI</span>
-            </span>
-            <span className="footer-sep">/</span>
-            <span className="footer-subtext">Built in Nigeria</span>
+        <div className="container">
+          <div className="footer-grid">
+            <div className="footer-brand-col">
+              <span className="brand-logo footer-logo">
+                <span className="brand-text">NOZIBI</span>
+              </span>
+              <p className="footer-tagline">
+                Building AI with speed, personality, and access — from Nigeria,
+                for the world.
+              </p>
+              <span className="footer-subtext">Built in Nigeria</span>
+            </div>
+
+            <div className="footer-col">
+              <h4 className="footer-col-title">COMPANY</h4>
+              <ul className="footer-links">
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#about">Our Story</a></li>
+                <li><a href="#">Careers</a></li>
+              </ul>
+            </div>
+
+            <div className="footer-col">
+              <h4 className="footer-col-title">PRODUCTS</h4>
+              <ul className="footer-links">
+                <li>
+                  <a
+                    href="https://davora.xyz"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Davora
+                  </a>
+                </li>
+                <li><a href="#pricing">Pricing</a></li>
+              </ul>
+            </div>
+
+            <div className="footer-col">
+              <h4 className="footer-col-title">RESEARCH</h4>
+              <ul className="footer-links">
+                <li><a href="#about">Our Approach</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+            </div>
+
+            <div className="footer-col">
+              <h4 className="footer-col-title">CONNECT</h4>
+              <ul className="footer-links">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/david-caleb"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    LinkedIn
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/davidcalebvl-del"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    GitHub
+                  </a>
+                </li>
+                <li><a href="#">X / Twitter</a></li>
+              </ul>
+            </div>
           </div>
-          <span className="footer-right">&copy; 2026 NOZIBI. All rights reserved.</span>
+
+          <div className="footer-bottom">
+            <span className="footer-right">
+              &copy; 2026 NOZIBI. All rights reserved.
+            </span>
+          </div>
         </div>
       </footer>
     </div>
