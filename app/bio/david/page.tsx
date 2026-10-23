@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Header from "../../components/Header";
 
 export const metadata = {
   title: "David Caleb — Co-Founder & CEO, Nozibi",
@@ -10,21 +11,7 @@ export default function DavidBio() {
   return (
     <div className="site-wrapper">
       {/* Sticky Header */}
-      <header className="header">
-        <div className="header-container">
-          <Link href="/" className="brand-logo" aria-label="NOZIBI Home">
-            <span className="brand-text">NOZIBI</span>
-          </Link>
-          <a
-            href="https://davora.xyz"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="pill-btn header-pill"
-          >
-            DAVORA
-          </a>
-        </div>
-      </header>
+      <Header />
 
       <main>
         <section className="section bio-section">

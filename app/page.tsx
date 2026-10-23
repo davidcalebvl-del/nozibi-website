@@ -1,24 +1,11 @@
 import Link from "next/link";
+import Header from "./components/Header";
 
 export default function Home() {
   return (
     <div className="site-wrapper">
       {/* Sticky Header */}
-      <header className="header">
-        <div className="header-container">
-          <Link href="/" className="brand-logo" aria-label="NOZIBI Home">
-            <span className="brand-text">NOZIBI</span>
-          </Link>
-          <a
-            href="https://davora.xyz"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="pill-btn header-pill"
-          >
-            DAVORA
-          </a>
-        </div>
-      </header>
+      <Header />
 
       <main>
         {/* Hero Section */}
