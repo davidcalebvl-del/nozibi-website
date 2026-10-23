@@ -889,26 +889,89 @@ a {
   background: #ffffff;
   border-radius: 2px;
 }
-.mobile-menu {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  padding: 12px 24px 20px;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
-  background: rgba(0, 0, 0, 0.95);
-}
-.mobile-menu a {
-  padding: 12px 4px;
-  font-size: 1rem;
-  font-weight: 600;
-  color: rgba(255, 255, 255, 0.85);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-}
-.mobile-menu a:hover {
-  color: #ffffff;
-}
+
+
+
 @media (max-width: 900px) {
   .header-nav { display: none; }
   .hamburger { display: inline-flex; }
   .header-pill { padding: 7px 14px; font-size: 0.75rem; }
+}
+
+/* Full-screen mobile menu overlay (Anthropic-style) */
+.mobile-overlay {
+  position: fixed;
+  inset: 0;
+  background: #000000;
+  z-index: 200;
+  padding: 20px 24px 40px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+.mobile-overlay-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.close-btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.05);
+  color: #ffffff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.close-btn:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+.mobile-overlay-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.mobile-link {
+  font-size: clamp(1.9rem, 7.5vw, 2.8rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 10px 0;
+  text-align: left;
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: inherit;
+}
+.mobile-link:hover {
+  color: #ffffff;
+}
+.chevron {
+  font-size: 1.1rem;
+  opacity: 0.6;
+  font-weight: 400;
+}
+.mobile-sub {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 6px 0 14px 6px;
+}
+.mobile-sub a {
+  font-size: 1.05rem;
+  color: rgba(255, 255, 255, 0.55);
+  padding: 7px 0;
+  font-weight: 500;
+}
+.mobile-sub a:hover {
+  color: #ffffff;
 }
