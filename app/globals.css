@@ -1048,3 +1048,9 @@ a {
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
+
+.brand-logo-img {
+  height: 32px;
+  width: auto;
+  display: block;
+}

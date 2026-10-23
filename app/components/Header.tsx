@@ -44,7 +44,7 @@ export default function Header() {
       <header className="header">
         <div className="header-container">
           <Link href="/" className="brand-logo" aria-label="NOZIBI Home">
-            <span className="brand-text">NOZIBI</span>
+            <img src="/logo.png" alt="Nozibi" className="brand-logo-img" />
           </Link>
 
           <nav className="header-nav" aria-label="Primary">
@@ -142,7 +142,7 @@ export default function Header() {
               aria-label="NOZIBI Home"
               onClick={closeMenu}
             >
-              <span className="brand-text">NOZIBI</span>
+              <img src="/logo.png" alt="Nozibi" className="brand-logo-img" />
             </Link>
             <button
               className="close-btn"
