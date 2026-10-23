@@ -92,15 +92,23 @@ export default function Header() {
 
         {searchOpen && (
           <div className="search-panel">
-            <input
-              className="search-input"
-              type="text"
-              placeholder="Search Nozibi…"
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-              autoFocus
-              aria-label="Search"
-            />
+            <div className="search-row">
+              <input
+                className="search-input"
+                type="text"
+                placeholder="Search Nozibi…"
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                autoFocus
+                aria-label="Search"
+              />
+              <button
+                className="search-cancel"
+                onClick={() => setSearchOpen(false)}
+              >
+                Cancel
+              </button>
+            </div>
             <ul className="search-results">
               {results.length === 0 && (
                 <li
