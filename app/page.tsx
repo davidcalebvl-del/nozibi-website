@@ -319,7 +319,7 @@ export default function Home() {
               <ul className="footer-links">
                 <li><a href="#about">About Us</a></li>
                 <li><a href="#about">Our Story</a></li>
-                <li><a href="#">Careers</a></li>
+                <li><a href="/careers">Careers</a></li>
               </ul>
             </div>
 
@@ -343,7 +343,7 @@ export default function Home() {
               <h4 className="footer-col-title">RESEARCH</h4>
               <ul className="footer-links">
                 <li><a href="#about">Our Approach</a></li>
-                <li><a href="#">Blog</a></li>
+                <li><a href="/blog">Blog</a></li>
               </ul>
             </div>
 
@@ -368,7 +368,7 @@ export default function Home() {
                     GitHub
                   </a>
                 </li>
-                <li><a href="#">X / Twitter</a></li>
+                <li><a href="mailto:nozibiofficial@gmail.com">Email</a></li>
               </ul>
             </div>
           </div>
