@@ -34,9 +34,11 @@ export default function JoshuaBio() {
             </Link>
 
             <div className="bio-hero">
-              <span className="founder-avatar bio-avatar" aria-hidden="true">
-                JC
-              </span>
+              <img
+                src="/joshua-caleb.jpg"
+                alt="Joshua Caleb"
+                className="founder-avatar bio-avatar founder-photo"
+              />
               <div>
                 <span className="section-label">CO-FOUNDER &amp; CTO</span>
                 <h1 className="bio-name">Joshua Caleb</h1>

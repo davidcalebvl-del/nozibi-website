@@ -34,9 +34,11 @@ export default function DavidBio() {
             </Link>
 
             <div className="bio-hero">
-              <span className="founder-avatar bio-avatar" aria-hidden="true">
-                DC
-              </span>
+              <img
+                src="/david-caleb.jpg"
+                alt="David Caleb"
+                className="founder-avatar bio-avatar founder-photo"
+              />
               <div>
                 <span className="section-label">CO-FOUNDER &amp; CEO</span>
                 <h1 className="bio-name">David Caleb</h1>

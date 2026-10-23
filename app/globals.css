@@ -643,6 +643,13 @@ a {
   font-size: 1.7rem;
 }
 
+.founder-photo {
+  object-fit: cover;
+  display: block;
+  padding: 0;
+  background: #111;
+}
+
 .bio-name {
   font-size: clamp(2rem, 5vw, 3rem);
   font-weight: 900;

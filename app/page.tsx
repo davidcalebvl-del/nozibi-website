@@ -242,7 +242,11 @@ export default function Home() {
             <div className="founders-grid">
               <article className="card founder-card">
                 <div className="founder-top-row">
-                  <span className="founder-avatar" aria-hidden="true">DC</span>
+                  <img
+                    src="/david-caleb.jpg"
+                    alt="David Caleb"
+                    className="founder-avatar founder-photo"
+                  />
                   <span className="founder-role-pill">
                     CHIEF EXECUTIVE OFFICER
                   </span>
@@ -266,7 +270,11 @@ export default function Home() {
 
               <article className="card founder-card">
                 <div className="founder-top-row">
-                  <span className="founder-avatar" aria-hidden="true">JC</span>
+                  <img
+                    src="/joshua-caleb.jpg"
+                    alt="Joshua Caleb"
+                    className="founder-avatar founder-photo"
+                  />
                   <span className="founder-role-pill">
                     CHIEF TECHNOLOGY OFFICER
                   </span>
